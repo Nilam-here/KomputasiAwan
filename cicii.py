@@ -1,7 +1,3 @@
-#KOMPUTASI AWAN#
-#Amanda Desi Dwi Nilamsari Husnaa#
-#220322606361#
-
 import numpy as np
 import matplotlib.pyplot as plt
 import streamlit as st
