@@ -1,3 +1,5 @@
+#amanda desi dwi nilamsari husnaa
+
 import numpy as np
 import matplotlib.pyplot as plt
 import streamlit as st
