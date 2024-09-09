@@ -61,3 +61,8 @@ with col2:
     st.pyplot(fig)  
  
 st.caption('Copyright © Nugroho Adi Pramono 2023')
+
+
+matplotlib==3.7.2
+numpy==1.25.2
+streamlit==1.26.0
