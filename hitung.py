@@ -9,7 +9,7 @@ if (sx == 'C'):
   if (sy == 'C'):
     y=x
   elif(sy == 'F'):
-    Fahrenheit = (9/5) * x + 32
+    F == (9/5) * x + 32
 st.write (x,'',sx,'=...', sy)
 
   
