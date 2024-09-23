@@ -10,9 +10,9 @@ if (sx == 'C'):
     y=x
   elif(sy == 'F'):
     (9/5) * x + 32
-  elif(sy == 'K'):
+  else(sy == 'K'):
     x+273.15
-  elif(sy == 'R'):
+  else(sy == 'R'):
     x*0.8
 st.write (x,'',sx,'=...', sy)
 
