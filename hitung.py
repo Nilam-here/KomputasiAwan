@@ -1,15 +1,12 @@
 import streamlit as st
 
-# Input number and unit
 x = st.number_input("Masukkan angka")
 sx = st.text_input("Satuan (C, F, K, R)", "C")
 
-# Input target unit to convert to
 sy = st.text_input("Dikonversi ke (C, F, K, R)", "Masukkan satuan")
 
 y = 0
 
-# Conversion logic based on units
 if sx == 'C':  # Celsius
     if sy == 'C':
         y = x
@@ -18,7 +15,7 @@ if sx == 'C':  # Celsius
     elif sy == 'K':  # Celsius to Kelvin
         y = x + 273.15
     elif sy == 'R':  # Celsius to Réaumur
-        y = x * 0.8
+        y = x * 4/5
 elif sx == 'F':  # Fahrenheit
     if sy == 'C':  # Fahrenheit to Celsius
         y = (x - 32) * 5/9
@@ -47,5 +44,4 @@ elif sx == 'R':  # Réaumur
     elif sy == 'R':
         y = x
 
-# Display result
 st.write(x, sx, "=", y, sy)
