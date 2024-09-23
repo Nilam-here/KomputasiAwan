@@ -13,7 +13,7 @@ if sx == 'C':  # Celsius
     elif sy == 'F':  
         y = (9/5) * x + 32
     elif sy == 'K':  
-        y = x + 273.15
+        y = x + 273
     elif sy == 'R': 
         y = x * 4/5
 elif sx == 'F':  
@@ -22,25 +22,25 @@ elif sx == 'F':
     elif sy == 'F':
         y = x
     elif sy == 'K': 
-        y = (x - 32) * 5/9 + 273.15
+        y = (x - 32) * 5/9 + 273
     elif sy == 'R':  
         y = (x - 32) * 4/9
 elif sx == 'K':  
     if sy == 'C':  
-        y = x - 273.15
+        y = x - 273
     elif sy == 'F':  
-        y = (x - 273.15) * 9/5 + 32
+        y = (x - 273) * 9/5 + 32
     elif sy == 'K':
         y = x
     elif sy == 'R':  
-        y = (x - 273.15) * 0.8
+        y = (x - 273) * 0.8
 elif sx == 'R':  # Reaumur
     if sy == 'C':  
         y = x / 0.8
     elif sy == 'F':  
         y = (x * 9/4) + 32
     elif sy == 'K': 
-        y = (x / 0.8) + 273.15
+        y = (x / 0.8) + 273
     elif sy == 'R':
         y = x
 
