@@ -6,7 +6,7 @@ from matplotlib.patches import Circle
 
 
 st.title("Fisika Komputasi Awan")
-st.title("Amanda Desi Dwi Nilamsari Husnaa :goblin:")
+st.title("Amanda Desi Dwi Nilamsari Husnaa :ghost:")
 circle = Circle((0, 0), 1, color='red', fill=False, linewidth=2, linestyle='-', alpha=0.2)
 x = []
 y = []
